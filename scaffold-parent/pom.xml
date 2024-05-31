@@ -13,7 +13,6 @@
         <module>scaffold-pojo</module>
         <module>scaffold-api</module>
         <module>scaffold-auth-7001</module>
-        <module>scaffold-api</module>
         <module>scaffold-activiti-7002</module>
     </modules>
 
@@ -51,6 +50,10 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-configuration-processor</artifactId>
             </dependency>
 
 

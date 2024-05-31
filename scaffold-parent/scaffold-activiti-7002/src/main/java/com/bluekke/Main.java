@@ -6,8 +6,9 @@ package com.bluekke;
  * @Author will
  * @create 2024/5/31 15:52
  */
-public class Main {
+@SpringBootApplication
+public class ActivitiApplication {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SpringApplication.run(ActivitiApplication.class, args);
     }
 }
