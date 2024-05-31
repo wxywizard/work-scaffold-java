@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>com.bluekke</groupId>
-            <artifactId>scaffold-api</artifactId>
+            <artifactId>scaffold-pojo</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
