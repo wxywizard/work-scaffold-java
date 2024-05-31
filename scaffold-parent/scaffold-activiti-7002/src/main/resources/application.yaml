@@ -1,3 +1,5 @@
+server:
+  port: 7002
 spring:
   application:
     name: scaffold-activiti-7002
@@ -5,4 +7,3 @@ spring:
     multipart:
       max-file-size: 10MB
       max-request-size: 10MB
-  port: 7002

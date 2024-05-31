@@ -1,8 +1,9 @@
+server:
+    port: 7001
 spring:
     application:
         name: scaffold-auth-7001
     servlet:
         multipart:
-        max-file-size: 10MB
-        max-request-size: 10MB
-    port: 7001
+            max-file-size: 10MB
+            max-request-size: 10MB
